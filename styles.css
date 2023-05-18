@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.4rem;
+  max-width: 120rem;
+  margin: 1.5rem;
+}
+
+h1,
+h2 {
+  margin: 1rem;
+ 
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+.description {
+  font-style: italic;
+  color: #0c8599;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+}
+
+header {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.descriptions-Audrey, .my-skills, .my-others {
+  list-style: none;
+}
+
+ul > li {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.container {
+  background: linear-gradient(45deg, rgb(236, 234, 234), rgb(255, 255, 255));
+  padding: 1rem;
+}
+.bio, .education, .work, .skills, .others {
+  padding: 1rem 0 0 3rem;
+}
+
+ul.my-bio li:last-of-type {
+  border-bottom: gray dotted 1px;
+}
+
+ul.my-education li:last-of-type {
+  border-bottom: gray dotted 1px;
+}
+.dotted
+ {
+  border-bottom: gray dotted 1px;
+}
+
+ul.sub-work li {
+ margin-left: 2rem;
+}
+
+.my-work-name {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.month {
+  font-style: italic;
+  color: #0c8599;
+}
+.no-margin {
+  margin: 0;
+  padding: 1rem 0 0 3rem;
+}
+.copyright {
+  margin: 1rem;
+}
+
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-weight: 600;
+  border-radius: 9px;
+  color: #555;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: white;
+  text-decoration: none;
+}
+
+.hobbies, .contacts {
+  background: linear-gradient(45deg, rgb(236, 234, 234), rgb(255, 255, 255));
+  padding: 1rem;
+  max-width: 40rem;
+}
